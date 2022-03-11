@@ -1,0 +1,125 @@
+.popup-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: -312px;
+    margin-right: -312px;
+    margin-top: -50px;
+}
+
+.popup-wrapper {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 1400px;
+    min-height: 600px;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+ }
+
+
+ /* EXIT BTN */
+ .popup-wrapper .popup-exit_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: #eff2f5;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 12px;
+    justify-content: center;
+    width: 40px;
+    color: gray;
+    margin-top: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.popup-wrapper .popup-exit_btn:hover {
+    background-color: rgb(216,218,223);
+}
+
+
+/* EDIT PHOTO */
+
+.popup-wrapper .edit_photo-wrapper {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.edit_photo-wrapper h2 {
+    color: #1d1b2f;
+    font-size: 36px;
+    text-align: center;
+}
+
+.edit_photo-wrapper .edit_photo-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 48px;
+}
+
+    .edit_photo-image .input_img-wrapper {
+        display: flex;
+        flex-direction: column; 
+        border: 1px solid lightgray;
+        width: 380px;
+    }
+
+    .edit_photo-image .input_img-wrapper img {
+        width: 380px;
+        height: auto;
+    }
+
+    /* CONTENT */
+    .input_img-wrapper .edit_img-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 24px;
+    }
+
+    .input_img-wrapper .edit_img-content p {
+        font-size: 16px;
+        margin-bottom: 24px;
+        color: #221e46;
+    }
+
+    .input_img-wrapper .edit_img-content .input_img-btn {
+        background-color: rgb(58,54,228);
+        color: white;
+        height: 40px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .input_img-wrapper .edit_img-content .input_img-btn:hover {
+        opacity: 0.85;
+    }
+
+        .edit_img-content .input_img-btn span {
+            padding: 12px 12px;
+        }
+
+
+
+        .edit_img-content .input_img-btn input{
+            display: none;
+        }
+        
+        

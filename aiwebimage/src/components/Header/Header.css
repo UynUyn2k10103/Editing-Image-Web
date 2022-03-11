@@ -1,0 +1,111 @@
+.header-wrapper {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    perspective: 2000px;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-wrapper .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+    margin-left: 312px;
+    margin-right: 312px;
+    padding-left: 48px;
+    padding-right: 48px;
+    height: 100%;
+}
+
+.header-nav .site-nav_logo {
+    text-decoration: none;
+    padding-top: 8px;
+}   
+
+    .header-nav .site-nav_logo img{
+        width: 136px;
+        height: 32px;
+    }
+
+.header-nav .site-nav_listItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+    .header-nav .site-nav_listItems .site-nav_item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 0 16px;
+        font-size: 16px;
+        color: #1d1b2f;
+        width: 60px;
+        height: 40px;
+        cursor: pointer;
+        
+    }
+
+    .header-nav .site-nav_listItems .site-nav_item:hover {
+        background-color: rgba(52, 69, 85, 0.07);
+        font-weight: 600;
+        border-radius: 4px;
+    }
+
+
+.header-nav .site-nav_account {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+    .site-nav_account .site-nav_item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 0 16px;
+        font-size: 16px;
+        color: #1d1b2f;
+        width: 60px;
+        height: 40px;
+        cursor: pointer;
+        margin-right: 16px;
+    }
+
+    .site-nav_account .site-nav_item:hover {
+        background-color: rgba(64,87,109,.07);
+        border-radius: 4px;
+        font-weight: 600;
+    }
+
+    .site-nav_account .start_btn {
+        background-color: rgb(58,54,228);
+        color: white;
+        height: 36px;
+        width: 117px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .site-nav_account .start_btn:hover {
+        opacity: 0.85;
+    }
+
+        .site-nav_account .start_btn span {
+            padding: 0 12px;
+        }
+
+    
